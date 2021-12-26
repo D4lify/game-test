@@ -1,0 +1,146 @@
+body {
+    overflow: hidden;
+    background-color: black; /*change when background changes*/
+    image-rendering: pixelated;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Pixel;
+}
+@font-face {
+    font-family: Pixel;
+    src: url("./Pixelized.ttf");
+}
+#mapCanvas {
+    overflow: hidden;
+    image-rendering: pixelated;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+    background-color: #333;
+    position: absolute;
+    transform: scale(3.9); 
+    width: 84px;
+    height: 84px;
+    top: 130px;
+}
+.inv {
+    background-image: none;
+    background-size: 100% 100%;
+    background-color: black;
+    outline: 1px solid white;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    right:5px;
+    top: 5px;
+    display: none;
+    border: none;
+}
+.stats {
+    background-image: url('./img/stats.png');
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    width: 315px;
+    height: 300px;
+    outline: 1px solid white;
+    display: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: white; /*change when background changes*/
+}
+#playerName {
+    position: absolute;
+    left: 5px;
+}
+.image {
+    position: absolute;
+}
+.imgCanvas {
+    width: 84px;
+    height: 84px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    transform: scale(3.9);
+    position: absolute;
+    top: 130px;
+}
+#temperature {
+    position: absolute;
+    top: 63px;
+    left: 5px;
+    color: yellow;
+}
+#temp {
+    position: absolute;
+    top: 63px;
+    left: 75px;
+    color: grey;
+}
+#stamina {
+    position: absolute;
+    top: 48px;
+    left: 5px;
+    color: cyan;
+}
+#health {
+   position: absolute;
+    top: 32px;
+    left: 5px; 
+    color: red;
+}
+#coordinatesX {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    color: yellow;
+}
+#coordinatesY {
+    position: absolute;
+    bottom: 17px;
+    left: 5px;
+    color: yellow;
+}
+#fishingLvl {
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+}
+#miningLvl {
+    position: absolute;
+    bottom: 55px;
+    left: 5px;
+}
+#foragingLvl {
+    position: absolute;
+    bottom: 70px;
+    left: 5px;
+}
+#combatLvl {
+    position: absolute;
+    bottom: 85px;
+    left: 5px;
+}
+#currentEnemy {
+    position: absolute;
+    color: orange;
+    top: 78px;
+    left: 5px;
+}
+#exp {
+    position: absolute;
+    color: lime;
+    left: 170px;
+}
+.inv-item-row-1 {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    display: block;
+}

@@ -1,0 +1,13 @@
+chunks = {
+    0 = hostel room;
+    1 = hostel hall;
+    2 = hostel outside;
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+}
+
